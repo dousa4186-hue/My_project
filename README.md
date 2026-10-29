@@ -18,3 +18,17 @@ This project is a simple software application developed as part of the Project M
 
  Run the tests:
 python -m unittest discover tests
+
+modification
+
+mkdir my_project
+cd my_project
+mkdir src tests
+touch src/main.py README.md
+# (قم بكتابة محتوى README.md)
+git init
+git add .
+git commit -m "Initial commit"
+# (أنشئ مستودعاً على GitHub)
+git remote add origin <URL>
+git push -u origin main
